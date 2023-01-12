@@ -176,8 +176,7 @@ header input {
 /* comics page */
 
 .comicspage {
-    width: 60%;
-    margin: auto;
+    width: 65%;
     margin-top: 5rem;
     font-size: larger;
     text-align: left;
@@ -186,7 +185,7 @@ header input {
 .comicspage h2 {
     color: #0282f9;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .boxes-green {
@@ -206,10 +205,11 @@ header input {
     width: 50%;
     
 }
-#main-right-side {
-    float: right;
-}
 
+
+.text-right {
+    text-align: right;
+}
 
 /* footer  */
 
@@ -238,3 +238,5 @@ header input {
    
     
 }
+
+
