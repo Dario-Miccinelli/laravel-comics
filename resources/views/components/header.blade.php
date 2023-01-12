@@ -1,0 +1,1 @@
+<img src="/public/images/dc-logo.png" alt="">
