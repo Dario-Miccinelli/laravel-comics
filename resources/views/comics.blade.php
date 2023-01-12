@@ -30,10 +30,15 @@
 
 </div>
 
-<p>
+<p class="paragraph">
     {{$comicsbook['description']}}
 </p>
 
+
+
+<div id="main-right-side">ADVERTISEMENT
+ 
+</div>
 </section>
 
 

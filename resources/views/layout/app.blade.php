@@ -6,6 +6,7 @@
 
         <title>@yield('page-title')</title>
         <link rel="stylesheet" href="{{ asset("css/style.css") }}">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
 
     </head>
@@ -26,6 +27,10 @@
 
 
         </main>
+
+        <footer>
+            @include('components.footer')
+        </footer>
         
     </body>
 </html>

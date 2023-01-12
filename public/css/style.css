@@ -118,6 +118,29 @@ header input {
     text-align: center;
 }
 
+.p-2 {
+    padding: 20px;
+}
+.blue3 img {
+    max-width: 5%;
+    max-height: 100px;
+    display: flex;
+    
+}
+
+
+/* blue part main */
+.blue3 {
+    height: 140px;
+    background-color: #0282f9;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
 /* fine main page 1 */
 
 /* current series position  */
@@ -148,6 +171,8 @@ header input {
     height: 80px;
 }
 
+
+
 /* comics page */
 
 .comicspage {
@@ -175,4 +200,41 @@ header input {
     padding: 1rem 4rem;
     margin: 2rem 0rem ;
     border: 1px solid black;
+}
+
+.paragraph {
+    width: 50%;
+    
+}
+#main-right-side {
+    float: right;
+}
+
+
+/* footer  */
+
+.bg-image {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    height: 600px;
+    padding-top:3rem;
+    padding-bottom: 5rem;
+    font-size: smaller;
+}
+
+.footer-icons {
+    background-color: #303030;
+    height: 90px;
+}
+
+
+.bg-pic-right {
+    margin-left: 1rem;
+    width: 920px;
+   
+    background-repeat: no-repeat;
+    background-image: url(../images/dc-logo-bg.png);
+    background-position:top;
+   
+    
 }
