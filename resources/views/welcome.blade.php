@@ -1,13 +1,31 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.app')
 
-        <title>@yield</title>
+@section('page-title', "DC-COMICS Home")
 
-    </head>
-    <body>
-        
-    </body>
-</html>
+
+@section('components.currseries')
+
+<button class="btn-blue btn-position bigger">CURRENT SERIES</button>
+
+@endsection
+
+
+@section('mainpage-main')
+<div id="main">
+<section class="main-series">
+@foreach ($comics as $elem)
+<div>
+ 
+    <img src="{{$elem['thumb']}}" alt="">
+    <p>{{$elem['series']}}</p>
+
+</div>
+@endforeach
+</section>
+<div class="button">
+<button class="btn-blue">LOAD MORE</button>
+</div>
+</div>
+
+
+@endsection

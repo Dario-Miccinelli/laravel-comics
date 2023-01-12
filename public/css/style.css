@@ -1,0 +1,178 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+header img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header input {
+    border: none;
+    border-bottom: 1px solid #0282f9;
+}
+
+.comics a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid #0282f9;
+}
+
+
+.blue {
+    width: 100%;
+    height: 30px;
+    background-color: #0282f9;
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.blue h5 {
+    margin-right: 30px;
+    margin-top: 8px;
+}
+
+.head {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+/* end header, im using css cause scss is not working */
+
+/* Jumbotron  */
+
+#jumbotron {
+    background-image: url(../images/jumbotron.jpg);
+    height: 450px;
+   
+    background-size: cover;
+  
+}
+
+/* end jumbotron  */
+
+/* main series  */
+
+.main-series {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: auto;
+    padding: 1rem 0rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.main-series div {
+    width: calc(100% / 6);
+}
+
+.main-series div img {
+    height: 200px;
+    aspect-ratio: 1/1;
+    margin-top: 50px;
+}
+
+#main {
+    background-color: #1c1c1c;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.btn-blue {
+    background-color: #0282f9;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+}
+
+/* fine main page 1 */
+
+/* current series position  */
+
+.btn-position {
+    position: absolute;
+    top: 35rem;
+    left: 23rem;
+}
+
+.img-position {
+    position: absolute;
+    top: 24rem;
+    left: 23rem;
+}
+.bigger {
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+
+/* page2 comics line blue */
+
+.blue2 {
+    height: 80px;
+}
+
+/* comics page */
+
+.comicspage {
+    width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+    font-size: larger;
+    text-align: left;
+}
+
+.comicspage h2 {
+    color: #0282f9;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.boxes-green {
+    display: flex;
+    
+}
+
+.green {
+    background-color: greenyellow;
+    display: flex;
+    padding: 1rem 4rem;
+    margin: 2rem 0rem ;
+    border: 1px solid black;
+}
