@@ -42,17 +42,18 @@ header input {
 
 .blue {
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: #0282f9;
     color: white;
     display: flex;
     justify-content: end;
-    gap: 10px;
+    gap: 5px;
+   
 }
 
-.blue h5 {
-    margin-right: 30px;
-    margin-top: 8px;
+.blue h6 {
+   
+    font-weight: bold;
 }
 
 .head {
@@ -176,39 +177,87 @@ header input {
 /* comics page */
 
 .comicspage {
-    width: 65%;
+    display: inline-block;
     margin-top: 5rem;
     font-size: larger;
     text-align: left;
 }
 
-.comicspage h2 {
+.w-100 h2 {
     color: #0282f9;
     text-transform: uppercase;
-    font-size: 1.6rem;
-}
-
-.boxes-green {
-    display: flex;
+    font-size: 2rem;
+    padding-top: 2rem;
     
 }
 
 .green {
-    background-color: greenyellow;
-    display: flex;
-    padding: 1rem 4rem;
-    margin: 2rem 0rem ;
-    border: 1px solid black;
+    background-color: green;
+    color: white;
+    padding: 1rem 1rem;
+    width: 500px;
+    height: 60px;
+    border-left: 1px solid black;
 }
 
 .paragraph {
-    width: 50%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 90%;
+    
     
 }
 
+.comics-info {
+    height: 400px;
+    width: 100%;
+    background-color: #F6F6F6;
+    border-top: 0.1px solid lightgray;
+}
+
+.comics-info-above {
+    background-color: #F6F6F6;
+}
+
+.comics-info-above img {
+    width: 60px;
+    height: 80px;
+    float: right;
+    
+ }
+
+
+ .pic {
+    filter: brightness(65%);
+ }
+
+ .comics-info-above span {
+    margin-left: 20px;
+
+ }
+
+.bold {
+    font-weight: bold;
+    color: #4FB4D9;
+}
+
+.bold-2 {
+    font-weight: bold;
+    color: #a09b9b;
+}
+
+
+
+.font-color {
+    color: #376176;
+}
 
 .text-right {
     text-align: right;
+}
+
+.width-45 {
+    width: 45%;
 }
 
 /* footer  */

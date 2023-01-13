@@ -1,6 +1,7 @@
 <div class="blue">
-    <h5>DC POWER VISA</h5>
-    <h5>ADDITIONAL DC SITES</h5>
+    <h6 class="me-5 mt-2">DC POWER VISA</h6>
+    <h6 class="me-5 mt-2">ADDITIONAL DC SITES<i class="fa-solid fa-sort-down ms-1"></i></h6>
+   
 </div>
 
 
@@ -9,7 +10,7 @@
     
     <img src="images/dc-logo.png" alt="">
 
-    <ul>
+    <ul class="mt-4">
         <li>CHARACTERS</li>
         <li class="comics"><a href="comics">COMICS</a></li>
         <li>MOVIES</li>
@@ -19,10 +20,12 @@
         <li>VIDEOS</li>
         <li>FANS</li>
         <li>NEWS</li>
-        <li>SHOP</li>
+        <li>SHOP<i class="fa-solid fa-sort-down text-primary ms-1"></i></li>
 
     </ul>
 
-
+    <div>
     <input type="text" placeholder="Search">
+    <i class="fa-solid fa-magnifying-glass"></i>
+</div>
 </div>
