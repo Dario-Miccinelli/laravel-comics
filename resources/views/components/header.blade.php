@@ -11,7 +11,7 @@
     <img src="images/dc-logo.png" alt="">
 
     <ul class="mt-4">
-        <li>CHARACTERS</li>
+        <li class="comics"><a href="/">CHARACTERS</a></li>
         <li class="comics"><a href="comics">COMICS</a></li>
         <li>MOVIES</li>
         <li>TV</li>
